@@ -1,0 +1,19 @@
+.nav{
+    padding: 16px 0;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+
+.navLinkItem {
+    padding-right: 0.5rem;
+}
+
+.navLinkItem:hover{
+    cursor: pointer;
+}

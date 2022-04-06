@@ -1,0 +1,22 @@
+.headerText{
+    display: block;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 850px) and (min-width: 600px){
+    .headerText{
+        font-size: 1.33em;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px){
+    .headerText{
+        font-size: 1.17em;
+    }
+}
